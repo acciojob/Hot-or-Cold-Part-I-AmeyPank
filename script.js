@@ -2,7 +2,7 @@ var randomNum;
 var input;
 
 function randomNumGenerator() {
-  randomNum = Math.floor(Math.random() * 41) - 20;
+  randomNum = Math.floor(Math.random() * 20) - 20;
   document.getElementById("num").innerText = randomNum;
   guessNum();
   print();
