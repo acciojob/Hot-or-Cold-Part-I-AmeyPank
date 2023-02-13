@@ -1,5 +1,6 @@
 var randomNum;
 var input;
+var btn = document.getElementById("btn");
 
 function randomNumGenerator() {
   randomNum = Math.floor(Math.random() * 20) - 20;
@@ -18,3 +19,4 @@ function print() {
     document.getElementById("respond").innerHTML = "Cold";
   }
 }
+btn.addEventListener("click",randomNumGenerator,print);
